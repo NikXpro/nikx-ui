@@ -1,6 +1,6 @@
 {
   "name": "nikx-ui",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Librairie de composants React réutilisables pour applications web.",
   "main": "dist/index.js",
   "module": "dist/index.js",
