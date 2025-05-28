@@ -1,0 +1,36 @@
+# Dépendances Node.js
+node_modules
+
+# Build de la librairie
+dist/
+
+# Fichiers de configuration d'éditeur
+.vscode/
+.idea/
+.cursor/
+
+# Fichiers de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Fichiers d'environnement
+.env
+.env.local
+.env.*.local
+
+# Fichiers de test/coverage
+coverage/
+
+# Fichiers de lock non utilisés
+package-lock.json
+yarn.lock
+
+# Caches divers
+.cache/
+.next/
+
+# Système
+.DS_Store
+Thumbs.db

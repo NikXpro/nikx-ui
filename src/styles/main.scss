@@ -1,0 +1,50 @@
+@use "variables";
+@use "mixins";
+@use "components";
+
+// Reset styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: variables.$font-family-base;
+  font-size: variables.$font-size-base;
+  line-height: variables.$line-height-base;
+  color: variables.$text-color;
+  background-color: variables.$background-color;
+}
+
+// Global utility classes
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 variables.$spacing-medium;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-1 {
+  margin-top: variables.$spacing-small;
+}
+.mt-2 {
+  margin-top: variables.$spacing-medium;
+}
+.mt-3 {
+  margin-top: variables.$spacing-large;
+}
+
+.mb-1 {
+  margin-bottom: variables.$spacing-small;
+}
+.mb-2 {
+  margin-bottom: variables.$spacing-medium;
+}
+.mb-3 {
+  margin-bottom: variables.$spacing-large;
+}
