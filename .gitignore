@@ -24,6 +24,7 @@ pnpm-debug.log*
 coverage/
 
 # Fichiers de lock non utilisés
+pnpm-lock.yaml
 package-lock.json
 yarn.lock
 

@@ -59,12 +59,6 @@ import {
 } from "nikx-ui";
 ```
 
-### Import styles
-
-```js
-import "nikx-ui/dist/styles/main.css";
-```
-
 ### Button Example
 
 ```tsx
@@ -119,17 +113,6 @@ import "nikx-ui/dist/styles/main.css";
   </TableBody>
 </Table>
 ```
-
-## 🎨 Theming
-
-You can customize the look and feel by overriding SCSS variables before importing the main stylesheet:
-
-```scss
-$primary-color: #ff6600;
-@import "nikx-ui/dist/styles/main.css";
-```
-
-See `src/styles/_variables.scss` for all available variables.
 
 ## 🤝 Contributing
 
