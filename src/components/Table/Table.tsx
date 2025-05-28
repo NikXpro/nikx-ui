@@ -1,5 +1,4 @@
 import React from "react";
-import "./Table.scss";
 
 interface TableProps extends React.HTMLAttributes<HTMLTableElement> {
   children: React.ReactNode;
